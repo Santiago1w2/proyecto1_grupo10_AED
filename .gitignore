@@ -18,7 +18,7 @@ media/
 
 # Capturas del video usadas en la galeria del README.
 # Se regeneran con los comandos ffmpeg indicados en el README.
-docs/
+
 
 # Cache de Python.
 __pycache__/
