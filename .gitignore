@@ -1,0 +1,52 @@
+# Entorno virtual: dependencias instaladas con pip.
+# No se versiona. Se reconstruye con:
+#   py -3.11 -m venv .venv
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv/
+venv/
+env/
+
+# Ejecutable compilado por render.py a partir de bloom.cpp.
+build/
+
+# Ejecutables que deja Manim en la raiz al renderizar.
+*.exe
+
+# Salida intermedia de Manim: fotogramas parciales, archivos de video por
+# capítulo y archivo de configuracion. Se regenera al renderizar.
+media/
+
+# Capturas del video usadas en la galeria del README.
+# Se regeneran con los comandos ffmpeg indicados en el README.
+docs/
+
+# Cache de Python.
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de configuracion locales de Manim.
+manim.cfg
+
+# Sistema operativo y editores.
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Archivos temporales.
+*.tmp
+*.bak
+*~
+
+# Nota: bloom_completo.mp4 NO esta excluido a proposito.
+# El video final si se versiona, junto con el codigo fuente:
+#   bloom.cpp
+#   bloom_prueba.cpp
+#   bloom_animation.py
+#   render.py
+#   requirements.txt
+#   trace.json
+#   chapters.json
+#   README.md

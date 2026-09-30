@@ -1,0 +1,72 @@
+[
+  {
+    "number": "01",
+    "title": "¿Está este elemento en el conjunto?",
+    "start": 0
+  },
+  {
+    "number": "02",
+    "title": "Los ingredientes: bits y funciones hash",
+    "start": 14.93
+  },
+  {
+    "number": "03",
+    "title": "Caso borde: filtro vacío",
+    "start": 30.43
+  },
+  {
+    "number": "04",
+    "title": "Insertar el primer elemento",
+    "start": 49.23
+  },
+  {
+    "number": "05",
+    "title": "Insertar y compartir un bit",
+    "start": 71.27
+  },
+  {
+    "number": "06",
+    "title": "Consultar un elemento insertado",
+    "start": 93.3
+  },
+  {
+    "number": "07",
+    "title": "Descartar un elemento",
+    "start": 115.6
+  },
+  {
+    "number": "08",
+    "title": "El falso positivo, paso a paso",
+    "start": 135.4
+  },
+  {
+    "number": "09",
+    "title": "Reinsertar no cambia los bits",
+    "start": 161.7
+  },
+  {
+    "number": "10",
+    "title": "¿Por qué no hay remove(x) en el filtro básico?",
+    "start": 181.73
+  },
+  {
+    "number": "11",
+    "title": "clear() sí puede reiniciar todo el filtro",
+    "start": 196.93
+  },
+  {
+    "number": "12",
+    "title": "¿Para qué sirve en la práctica?",
+    "start": 210.53
+  },
+  {
+    "number": "13",
+    "title": "Costo y límites de la estructura",
+    "start": 224.77
+  },
+  {
+    "number": "14",
+    "title": "Qué debes recordar",
+    "start": 241.67
+  }
+]
