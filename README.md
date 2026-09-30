@@ -291,20 +291,3 @@ puede leer, ejecutar o modificar de forma independiente sin afectar la animació
 
 Los tiempos exactos de inicio de cada capítulo quedan en `chapters.json`, que se
 regenera en cada renderizado.
-
-## Notas sobre el material
-
-- El guion usa la fuente DejaVu Sans. Si no está instalada, Manim puede sustituirla
-  y el aspecto cambia ligeramente. Para usar otra fuente, modifica la constante
-  `FONT` en `bloom_animation.py`.
-- Manim Community 0.19.0 es la versión fijada en `requirements.txt`. Versiones
-  posteriores están disponibles y pueden modificar el resultado visual.
-- `bloom.cpp` no incluye comprobaciones automáticas de aserción. El flujo de
-  ejecución es lineal y su salida se puede revisar inspecting `trace.json` y el
-  registro que escribe `bloom_prueba.cpp`.
-- El video no incluye carátula, integrantes ni informe. Este material es un ejemplo
-  de estudio: el grupo debe comprender y adaptar la implementación, y cumplir las
-  reglas del curso sobre fuentes y herramientas.
-
-Guía de programación consultada:
-[Manim Community: Quickstart](https://docs.manim.community/en/stable/tutorials/quickstart.html).
